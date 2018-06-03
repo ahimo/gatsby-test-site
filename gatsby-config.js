@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: '/gatsby-test-siet'
+    pathPrefix: '/gatsby-test-site'
    ,plugins: [
         {
             resolve: 'gatsby-plugin-typography'
