@@ -1,5 +1,6 @@
 // src/pages/gatsby/tip001.js
 import React from "react"
+import Link from "gatsby-link"
 
 export default ()=>
     <div>
@@ -11,5 +12,7 @@ export default ()=>
         <h2>git init</h2>
         <h2>git remote add origin https://github.com/ahimo/gatsby-test-site.git</h2>
         <h2>npm run deploy</h2>
+
+        <Link to="/gatsby/tip002/">次へ</Link>
     </div>
 
